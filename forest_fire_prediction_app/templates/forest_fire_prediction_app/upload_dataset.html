@@ -1,0 +1,5 @@
+<form method="post" enctype="multipart/form-data">
+    {% csrf_token %}
+    <input type="file" name="dataset" required>
+    <button type="submit" class="btn btn-success">Upload</button>
+</form>

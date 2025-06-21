@@ -1,0 +1,4 @@
+pandas
+Django
+scikit-learn
+matplotlib
